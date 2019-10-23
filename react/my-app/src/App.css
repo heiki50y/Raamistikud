@@ -1,0 +1,324 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  border-bottom: 2px solid #61dbfb;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  color: #61dbfb;
+  font-size: 1.6rem;
+  margin-right: 4rem;
+}
+
+.logo {
+  margin-right: auto;
+  height: 6rem;
+  margin-left: 2rem;
+}
+
+.container {
+  width: 100rem;
+  margin: auto;
+}
+
+.video-container {
+  padding: 0 1rem;
+  max-width: 60rem;
+  margin: auto;
+}
+
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #666;
+}
+
+.banner {
+  background-image: url(img/1000x300-parth-vintage-jyler-1.jpg);
+  background-size: cover;
+  height: 45vh;
+}
+
+/* HOME */
+
+.landpage {
+  background-image: linear-gradient(to right top, rgba(153, 153, 153, 0.5), rgba(51, 51, 51, 0.4)), url(img/apple-coffee-cup-459653.jpg);
+  height: 90vh;
+  background-size: cover;
+}
+
+.heading-primary {
+  position: absolute;
+  color: #fff;
+  top: 60%;
+  left: 32%;
+  transform: translate(-50%, 50%);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.heading-primary--main {
+  display: block;
+  font-size: 5rem;
+  font-weight: 400;
+  /* animation-name: moveInBottom;
+  animation-duration: 3s;  */
+}
+   
+      /* .heading-primary--sub {
+        display: block;
+        font-size: 4rem;
+        font-weight: 700;
+        animation-name: moveInBottom;
+        animation-duration: 3s; 
+      } */
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 15rem;
+  pointer-events: none;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* HOME /// ABOUT */
+
+.section {
+  margin: 10rem 0;
+}
+
+
+
+/* .container {
+  width: 100rem;
+  margin: auto;
+} */
+
+.heading--1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.heading--2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.example {
+  text-align: center;
+}
+
+.example img {
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+
+/* MATERJALID */
+
+.tutorial {
+  margin-bottom: 6rem;
+}
+
+/* EXAMPLES */
+
+.section-examples {
+  margin: 20rem 0;
+}
+
+.classes.root {
+  width: 70rem;
+  margin: auto;
+}
+
+.tab {
+  width: 100rem;
+  margin: auto;
+}
+
+/* GAME */
+
+.section-game {
+  padding: 5rem 0;
+}
+
+.game-container {
+  width: 100rem;
+  margin: auto;
+}
+
+.game {
+  width: 100rem;
+  height: 70rem;
+}
+
+/* CONTACT */
+
+.contact-section {
+  margin: 15rem 0;
+  
+}
+
+.contact-container {
+  width: 50rem;
+  margin: auto;
+  padding: 4rem 1rem;
+  border-radius: 2rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
+  border: 2px solid #2998ff;
+  
+}
+
+.contact {
+  text-align: center;
+  
+}
+
+.form-group {
+  display: inline-block;
+}
+
+.form-group input {
+  padding: .8rem;
+  /* border: 1.4px solid #2998ff; */
+}
+
+.input--1 {
+  margin-right: 5rem;
+}
+
+.text-group textarea{
+  padding: .8rem;
+  width: 41rem;
+  height: 10rem;
+  margin-top: 2rem;
+  /* border: 1.4px solid #2998ff; */
+  /* border-bottom: 2px solid #2998ff; */
+}
+
+.button {
+  margin-top: 2rem;
+  text-decoration: none;
+  padding: 1.2rem 3rem;
+  border: none;
+  cursor: pointer;
+  background-color: #2998ff;
+  color: #fff;
+  border-radius: 10rem;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+  margin-top: 7rem;
+}
+
+.footer__logo-box {
+  text-align: center; 
+}
+
+.footer__logo {
+  height: 5rem; 
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.row [class^="col-"] {
+  float: left; 
+}
+
+.col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+
+.footer__navigation {
+  border-top: 1px solid #777;
+  padding: 2rem;
+  display: inline-block;
+  
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+  
+}
+
+.footer__item {
+  color: #61dbfb;
+  font-size: 1.6rem;
+  margin-right: 2.2rem;
+}
+
+.footer__copyright {
+  border-top: 1px solid #777;
+  padding-top: 2rem;
+  float: right;
+  width: 80%;
+  text-align: center;
+  color: #61dbfb;
+}

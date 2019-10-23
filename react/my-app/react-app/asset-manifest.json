@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.78c9eb69.chunk.css",
+    "main.js": "/react-app/static/js/main.ede92ce9.chunk.js",
+    "main.js.map": "/react-app/static/js/main.ede92ce9.chunk.js.map",
+    "runtime~main.js": "/react-app/static/js/runtime~main.c3506144.js",
+    "runtime~main.js.map": "/react-app/static/js/runtime~main.c3506144.js.map",
+    "static/js/2.fa98d761.chunk.js": "/react-app/static/js/2.fa98d761.chunk.js",
+    "static/js/2.fa98d761.chunk.js.map": "/react-app/static/js/2.fa98d761.chunk.js.map",
+    "index.html": "/react-app/index.html",
+    "precache-manifest.19bbe036bbcf9dbb0af5ee39e57adb8c.js": "/react-app/precache-manifest.19bbe036bbcf9dbb0af5ee39e57adb8c.js",
+    "service-worker.js": "/react-app/service-worker.js",
+    "static/css/main.78c9eb69.chunk.css.map": "/react-app/static/css/main.78c9eb69.chunk.css.map",
+    "static/media/App.css": "/react-app/static/media/apple-coffee-cup-459653.16a7a917.jpg",
+    "static/media/logo.svg": "/react-app/static/media/logo.ee7cd8ed.svg",
+    "static/media/react_tutorial.jpeg": "/react-app/static/media/react_tutorial.8fbdcbb3.jpeg"
+  }
+}
